@@ -1,56 +1,166 @@
-# Vortex Tech AI & ML Internship Portfolio
+# Vortex Tech AI/ML Internship
 
-**Sarim Ahmed** | AI & Machine Learning Internship
+This repository contains all tasks completed during the Vortex Tech AI & Machine Learning Internship.
+
+## Internship Overview
+
+- Duration: 4 Weeks
+- Domain: Artificial Intelligence & Machine Learning
+- Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+  ---
+
+# Week 1 – Data Cleaning & Exploratory Data Analysis
+
+## Objective
+Prepare a raw HR employee dataset for machine learning by cleaning, transforming, and exploring the data to identify trends, relationships, and potential issues.
+
+### Tasks Performed
+- Loaded and inspected the IBM HR Employee Attrition dataset.
+- Identified missing values, duplicate records, and inconsistent data.
+- Cleaned and transformed the dataset using Pandas.
+- Generated descriptive statistics to understand feature distributions.
+- Created visualizations to identify patterns and correlations.
+- Explored employee attrition trends across different demographic and workplace factors.
+
+### Skills Gained
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Feature Understanding
+- Pandas & Matplotlib
 
 ---
 
-## Overview
+# Week 2 – Classification
 
-This repository documents my progress in the **Vortex Tech AI & ML Internship Program 2026**.
+## Objective
+Develop and evaluate machine learning classification models capable of predicting employee attrition using historical HR data.
 
-### Week 1: Data Cleaning & Exploratory Data Analysis
-- Cleaned the IBM HR Employee Attrition dataset
-- Performed EDA with visualizations
-- Prepared data for machine learning
+### Tasks Performed
+- Prepared the cleaned dataset for supervised learning.
+- Split the dataset into training and testing sets.
+- Trained multiple classification algorithms.
+- Compared model performance using standard evaluation metrics.
+- Analyzed confusion matrices and classification reports.
+- Identified the best-performing model based on predictive accuracy.
 
-### Week 2: Build a Classification Model
-- Built a **Logistic Regression** model to predict employee `Attrition`
-- Achieved **86% accuracy**
-- Evaluated using Accuracy, Precision, Recall, and F1-Score
-- Analyzed limitations and suggested improvements
+### Algorithms Used
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- K-Nearest Neighbors (KNN)
+
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+### Skills Gained
+- Supervised Machine Learning
+- Classification Techniques
+- Model Evaluation
+- Scikit-learn
 
 ---
 
-## Project Structure
-vortextech-aiml-internship/
-├── data/
-│   ├── raw/
-│   └── cleaned_employee_data.csv
-├── notebooks/
-│   ├── week1_data_cleaning.ipynb
-│   └── week2_data_classification.ipynb
-├── README.md
-└── requirements.txt
-text## Technologies Used
-- Python, pandas, scikit-learn
-- Matplotlib, Seaborn
+# Week 3 – Regression & Clustering
+
+## Objective
+Apply both supervised and unsupervised learning techniques to solve regression and clustering problems while understanding model evaluation and pattern discovery.
+
+### Regression Tasks
+- Built Linear Regression models for numerical prediction.
+- Trained and tested regression models using Scikit-learn.
+- Evaluated model performance using:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - R² Score
+- Visualized regression lines and prediction results.
+
+### Clustering Tasks
+- Applied K-Means clustering to discover hidden patterns.
+- Determined the optimal number of clusters using the Elbow Method.
+- Visualized clusters using scatter plots.
+- Interpreted cluster characteristics for better data understanding.
+
+### Skills Gained
+- Linear Regression
+- Unsupervised Learning
+- K-Means Clustering
+- Model Evaluation
+- Data Visualization
+
+---
+
+# Week 4 – Sentiment Analysis
+
+## Objective
+Build an end-to-end Natural Language Processing (NLP) pipeline capable of classifying customer reviews as positive or negative.
+
+### Tasks Performed
+- Cleaned and preprocessed raw text data.
+- Removed stopwords and unnecessary characters.
+- Converted text into numerical features using TF-IDF Vectorization.
+- Trained multiple machine learning models.
+- Compared classification performance across models.
+- Selected the best-performing classifier based on evaluation metrics.
+
+### Algorithms Used
+- Logistic Regression
+- Multinomial Naive Bayes
+
+### Performance Evaluation
+- Accuracy Comparison
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
+
+### Skills Gained
+- Natural Language Processing (NLP)
+- Text Preprocessing
+- TF-IDF Vectorization
+- Sentiment Classification
+- Machine Learning Evaluation
+
+  ---
+
+# Repository Structure
+
+```
+vortextech-aiml-internship
+│
+├── data (week 1 and 2)
+├── notebooks (week 1 and 2)
+├── week3_regression and clustering
+├── week4_sentiment analysis model
+└── README.md 
+```
+
+---
+
+# Tools & Libraries
+
+- Python
 - Jupyter Notebook
-- Git & GitHub
-
-## How to Run
-1. Clone the repo
-2. `pip install -r requirements.txt`
-3. Open notebooks in Jupyter
-
-## Week 2 Model Performance
-- **Accuracy**: 0.8605
-- **Precision**: 0.6875
-- **Recall**: 0.2340
-- **F1-Score**: 0.3492
-
-**Note**: Model shows good overall performance but lower recall due to class imbalance.
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ---
 
-**Author**: Sarim Ahmed  
-**Program**: Vortex Tech AI & ML Internship 2026
+# Author
+
+**Sarim Ahmed**
+
+BS Software Engineering  
+COMSATS University Islamabad, Wah Campus
+
+GitHub: https://github.com/Sarim-web
